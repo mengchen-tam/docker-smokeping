@@ -36,6 +36,10 @@ RUN \
     smokeping==${SMOKEPING_VERSION} \
     ssmtp \
     sudo \
+    python3 \
+    py3-pip \
+    py3-boto3 \
+    py3-requests \
     tcptraceroute && \
   echo "**** Build perl TacacsPlus module ****" && \
   cpanm Authen::TacacsPlus && \
